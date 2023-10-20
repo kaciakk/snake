@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:blue;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+canvas {
+    border: 2px solid #333;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, button:active {
+    background-color: #45a049;
+}
+
+#score, #highscore, #difficulty {
+    font-size: 20px;
+    margin: 10px;
+}
